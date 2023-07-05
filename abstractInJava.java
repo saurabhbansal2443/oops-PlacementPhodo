@@ -5,7 +5,7 @@ public class abstractInJava {
             Samsung s1 = new Samsung();
 
             Nokia n1 = new Nokia();
-
+          
             
             
         }
@@ -14,7 +14,9 @@ public class abstractInJava {
 
 abstract class Government{
 
+    
     abstract void call();
+     abstract void call(int n);
     abstract void message();
 
     void music(){
@@ -28,8 +30,11 @@ abstract class Government{
 }
 
 class Samsung extends Government{
-
+    int modelNumber ;
     void call(){
+
+    }
+    void call(int n ){
         System.out.println("Calling");
     }
 
