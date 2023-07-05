@@ -18,9 +18,9 @@ class Employee {
 
     }
 
-     Employee(String ename , int eid){  //  constructor overloading 
-        name = ename;
-        id = eid;
+     Employee(String name , int id){  //  constructor overloading 
+        this.name = name;
+        this.id = id;
     }
 
 }
